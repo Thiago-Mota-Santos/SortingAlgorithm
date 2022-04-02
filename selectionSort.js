@@ -1,7 +1,4 @@
-let array = [];
-for (let i = 0 ; i < 100 ; i++){
-  array.push(getRandom(1, 1000));
-}
+let array = [3,5,8,1,3,9,1,10,12,5];
 
 
 
@@ -14,7 +11,7 @@ function selectionSort (array)
 
     for(let j in array){
         min = j;
-    
+       
 
     for(let i in array){
     if(array[i] > array[min]){
@@ -29,10 +26,6 @@ function selectionSort (array)
 }
 
         return array;
-}
-
-function getRandom(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 
