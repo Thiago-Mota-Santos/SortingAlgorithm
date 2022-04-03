@@ -20,7 +20,7 @@ function selectionSort (array)
     if(array[j] < array[min]){
         aux = array[j];
         array[j] = array[min];
-        array[min] = aux
+        array[min] = aux;
     }
     }
 }
